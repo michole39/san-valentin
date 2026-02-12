@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Para Sofi el amor de mi vida ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- INTRO -->
+    <section id="intro" class="section active" style="background-image: url('foto1.jpg');">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Antes de continuar…</h1>
+            <p>Quiero que pongas tu canción.</p>
+            <a href="https://open.spotify.com/intl-es/track/3U4isOIWM3VvDubwSI3y7a?si=78d0e87264ef4d9e" target="_blank" class="btn">🎵 Escuchar canción</a>
+            <button class="btn secondary" onclick="goToLetter()">Ya la estoy escuchando</button>
+        </div>
+    </section>
+
+    <!-- CARTA -->
+    <section id="carta" class="section" style="background-image: url('foto1.jpg');">
+        <div class="overlay"></div>
+        <div class="content">
+            <div id="textoCarta"></div>
+            <button id="btnContinuar" class="btn secondary hidden" onclick="goToRecuerdo()">Continuar</button>
+        </div>
+    </section>
+
+    <!-- MINI RECUERDO -->
+    <section id="recuerdo" class="section" style="background-image: url('foto2.jpg');">
+        <div class="overlay"></div>
+        <div class="content">
+            <p id="recuerdoTexto"></p>
+        </div>
+    </section>
+    
+
+    <!-- PREGUNTA -->
+    <section id="pregunta" class="section" style="background-image: url('foto2.jpg');">
+        <div class="overlay"></div>
+        <div class="content">
+            <h2>Sofi ¿Quieres ser mi San Valentín?</h2>
+            <div class="buttons">
+                <button id="btnSi" class="btn">Sí ❤️</button>
+                <button id="btnNo" class="btn secondary">No</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL -->
+    <section id="final" class="section" style="background-image: url('foto3.jpg');">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Gracias por elegirme.</h1>
+            <p>Feliz San Valentín ❤️</p>
+            <p>Te amo para siempre.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
